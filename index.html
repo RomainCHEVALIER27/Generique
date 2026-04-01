@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générique ADRN</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0; padding: 0;
+            background-color: black; color: white;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            overflow: hidden; height: 100vh;
+            display: flex; justify-content: center;
+        }
+        .container { position: relative; width: 100%; text-align: center; }
+        .credits {
+            position: absolute; top: 100%; width: 100%;
+            animation: scrollUp 15s linear infinite;
+        }
+        .title-section {
+            color: #00FF00; font-size: 1.2rem;
+            text-transform: uppercase; letter-spacing: 3px;
+            margin-bottom: 40px; font-weight: bold;
+        }
+        .name {
+            font-size: 2.2rem; margin-bottom: 20px;
+            font-weight: bold; color: #FFFFFF;
+        }
+        @keyframes scrollUp {
+            0% { top: 100%; }
+            100% { top: -180%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="credits">
+            <div class="title-section">ÉQUIPE ADRN</div>
+            <div class="name">Yassine BENEKOUR</div>
+            <div class="name">Vincent BARDIN</div>
+            <div class="name">Théophane BROHIER</div>
+            <div class="name">Romain CHEVALIER</div>
+            <div class="name">Théo COUACAULT</div>
+            <div class="name">Sebastien DUCHENE</div>
+            <div class="name">Diego MAQUAIRE</div>
+            <div class="name">Jean-Claude PINOTEAU</div>
+            <div class="name">Aurore REFAIT</div>
+        </div>
+    </div>
+</body>
+</html>
